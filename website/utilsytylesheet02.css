@@ -1,0 +1,58 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.head ul li{
+    list-style: none;
+    font-family: lato, sans-serif ;
+}
+
+.head ul{
+    width: 270vh;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 80px;
+    padding-right: 60px;
+}
+
+.head nav ul li a:hover{
+    font-weight: bold;
+    color: #d6a718;
+}
+
+.head nav ul li a.active{
+    font-weight: bold;
+    color: #d6a718;
+    text-decoration: underline;
+}
+
+.pm{
+    padding: 0;
+    margin: 0;
+}
+#myCarousel .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.image-box img{
+    bottom: 160px;
+    position: relative;
+}
+
+.servicesContent p {
+    bottom: 300px;
+}
+
+
